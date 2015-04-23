@@ -1,0 +1,1531 @@
+/*index.html*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	爱健康</title>
+	<script type="text/javascript" src="js/js1.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <script type="text/javascript">
+           $(document).ready(function(){
+           	        $('#d1').click(function(){
+                        for(var t=1;t<4;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d1').addClass('active4');
+                    	$('#b1').show();
+                    })
+                    $('#d2').click(function(){
+                        for(var t=1;t<4;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d2').addClass('active4');
+                    	$('#b2').show();
+                    })
+                    $('#d3').click(function(){
+                        for(var t=1;t<4;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d3').addClass('active4');
+                    	$('#b3').show();
+                    })
+           	
+           		$('#in1').click(function(){
+	           	  	for(var i=1;i<5;i++){
+	           	  		$('#in'+i).css({'background-color':'#f09f11','color':'#fff','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  		$('#rdiv'+i).hide();
+	           	  	}
+	           	  	$('#in1').css({'background-color':'#fff','color':'#f09f11','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  	$('#rdiv1').show();
+                    $('#d1').click(function(){
+                        for(var t=1;t<4;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d1').addClass('active4');
+                    	$('#b1').show();
+                    })
+                    $('#d2').click(function(){
+                        for(var t=1;t<4;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d2').addClass('active4');
+                    	$('#b2').show();
+                    })
+                    $('#d3').click(function(){
+                        for(var t=1;t<4;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d3').addClass('active4');
+                    	$('#b3').show();
+                    })
+
+	           	  });
+	           	   $('#in2').click(function(){
+	           	   	for(var i=1;i<5;i++){
+	           	  		$('#in'+i).css({'background-color':'#f09f11','color':'#fff','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  		$('#rdiv'+i).hide();
+	           	  	}
+	           	  	$('#in2').css({'background-color':'#fff','color':'#f09f11','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  	$('#rdiv2').show();
+	           	  	$('#d4').click(function(){
+                        for(var t=4;t<7;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d4').addClass('active4');
+                    	$('#b4').show();
+                    })
+                    $('#d5').click(function(){
+                        for(var t=4;t<7;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d5').addClass('active4');
+                    	$('#b5').show();
+                    })
+                    $('#d6').click(function(){
+                        for(var t=4;t<7;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d6').addClass('active4');
+                    	$('#b6').show();
+                    })
+           	     });
+	           	    $('#in3').click(function(){
+	           	   	for(var i=1;i<5;i++){
+	           	  		$('#in'+i).css({'background-color':'#f09f11','color':'#fff','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  		$('#rdiv'+i).hide();
+	           	  	}
+	           	  	$('#in3').css({'background-color':'#fff','color':'#f09f11','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  	$('#rdiv3').show();
+	           	  	$('#d7').click(function(){
+                        for(var t=7;t<10;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d7').addClass('active4');
+                    	$('#b7').show();
+                    })
+                    $('#d8').click(function(){
+                        for(var t=7;t<10;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d8').addClass('active4');
+                    	$('#b8').show();
+                    })
+                    $('#d9').click(function(){
+                        for(var t=7;t<10;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d9').addClass('active4');
+                    	$('#b9').show();
+                    })
+           	     });
+	           	     $('#in4').click(function(){
+	           	   	for(var i=1;i<5;i++){
+	           	  		$('#in'+i).css({'background-color':'#f09f11','color':'#fff','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  		$('#rdiv'+i).hide();
+	           	  	}
+	           	  	$('#in4').css({'background-color':'#fff','color':'#f09f11','border':'2px solid #edefe9','border-right-color':'#fff'});
+	           	  	$('#rdiv4').show();
+	           	  	$('#d10').click(function(){
+                        for(var t=10;t<13;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d10').addClass('active4');
+                    	$('#b10').show();
+                    })
+                    $('#d11').click(function(){
+                        for(var t=10;t<13;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d11').addClass('active4');
+                    	$('#b11').show();
+                    })
+                    $('#d12').click(function(){
+                        for(var t=10;t<13;t++){
+                        	$('#d'+t).removeClass('active4');
+                        	$('#b'+t).hide();
+                        }
+                    	$('#d12').addClass('active4');
+                    	$('#b12').show();
+                    })
+           	     });
+           
+           });
+
+    </script>
+	<div class="head">
+		<img src="img/logo.png" alt="logo">
+		<a class="active" href="javascript:;">首页</a>
+		<a href="javascript:;">健康计划</a>
+		<a href="javascript:;">健康管理</a>
+		<a href="javascript:;">家人关怀</a>
+		<a href="javascript:;">健康档案</a>
+		<div class="head_right">
+			<div class="head_right_l">
+				<img src="img/user.png" alt="user">
+				<p onclick="showor();">weijianxing</p>
+				<img src="img/down.png" class="down" onclick="showor();">
+			</div>
+			<img src="img/message.png" title="新的消息" class="message">
+			<div id="down-list"class="down-list">
+				<ul>
+					<li><a href="javascript:;">账号设置</a></li>
+					<li><a href="javascript:;">个人信息</a></li>
+					<li><a href="javascript:;">我的设备</a></li>
+					<li><a href="javascript:;">退出</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container clearfix">
+		<div class="body-left">
+			<h2>我加入爱健康以来</h2>
+			<div class="circle4">
+			    <div class="circle-3">
+			    </div>
+			    <div id="circle1" class="circle-1" onmouseover="bigger('c1');"onmouseout="smaller('c1');">
+			    	<p>共燃烧<br><br><strong>1215</strong>卡</p>
+			    </div>
+			    <div id="circle2" class="circle-2" onmouseover="bigger('c2');"
+			    onmouseout="smaller('c2');">
+			    	<p>已运动<br><br><strong>13</strong>天</p>
+			    </div>
+			    
+			    <div id="circle3" class="circle-4" onmouseover="bigger('c3');"
+			    onmouseout="smaller('c3');">
+			    	<p>积累路程<br><br><strong>15</strong>km</p>
+			    </div>
+				
+			</div>
+
+			<div id="chose" class="chose clearfix">
+				<input class="btn1 active2" type="button"value="智能配件">
+				<input class="btn2" type="button"value="手机">
+				<div id="chart">
+					<img src="img/svg1.png">
+				</div>
+				<div>
+					<span>
+						<img src="img/feet.png"><span>步数<p>0</p>步</span>
+					</span>
+					<span>
+						<img src="img/board.png"><span>距离<p>0</p>公里</span>
+					</span>
+					<span>
+						<img src="img/fire.png"><span>燃烧<p>0</p>卡</span>
+					</span>
+				</div>
+			</div>
+			<div id="chose1">
+			    <div id="chose2"class="lul">
+				     
+				     		<input id="in1" class="active3" type="button"value="运动量">
+				     		<input id="in2" type="button"value="体重">
+				     		<input id="in3" type="button"value="血压">
+				     		<input id="in4" type="button"value="血糖">
+				</div>
+				<div id="rdiv1" class="rdiv"style="display:block">
+					<div id="tlabe1" class="tlabel" >
+						<div id="d1">
+							<label>当天</label>
+							<span></span>
+						</div>
+						<div id='d2'>
+							<label>7天</label>
+							<span></span>
+						</div>
+						<div id="d3" class="active4">
+							<label>30天</label>
+							<span></span>
+						</div>
+					</div>
+					<div id="b1" class="bdiv" style='display:none;' >
+						<p>
+							亲，当天您还没有运动量曲线！
+						</p>
+					</div>
+					<div id="b2" class="bdiv" style='display:none;'>
+						<p>
+							亲，7天您还没有运动量曲线！
+						</p>
+					</div>
+					<div id="b3" class="bdiv" style='display:block;'>
+						<p>
+							亲，30天您还没有运动量曲线！
+						</p>
+					</div>
+
+				</div>
+				<div id="rdiv2" class="rdiv"style="display:none" >
+					<div id="tlabe2" class="tlabel" >
+						<div id='d4'>
+							<label>当天</label>
+							<span></span>
+						</div>
+						<div id="d5">
+							<label>7天</label>
+							<span></span>
+						</div>
+						<div id="d6"class="active4">
+							<label>30天</label>
+							<span></span>
+						</div>
+					</div>
+					<div id="b4" class="bdiv" style='display:none;'>
+						<p>
+							亲，当天您还没有体重曲线！
+						</p>
+					</div>
+					<div id="b5"class="bdiv" style='display:none;'>
+						<p>
+							亲，7天您还没有体重曲线！
+						</p>
+					</div>
+					<div id="b6"class="bdiv" style='display:block;'>
+						<p>
+							亲，30天您还没有体重曲线！
+						</p>
+					</div>
+				</div>
+				<div id="rdiv3" class="rdiv" style="display:none">
+					<div id="tlabe3" class="tlabel">
+						<div id="d7">
+							<label>当天</label>
+							<span></span>
+						</div>
+						<div id="d8">
+							<label>7天</label>
+							<span></span>
+						</div>
+						<div id="d9" class="active4">
+							<label>30天</label>
+							<span></span>
+						</div>
+					</div>
+					<div id="b7" class="bdiv" style='display:none;'>
+						<p>
+							亲，当天您还没有血压曲线！
+						</p>
+					</div>
+					<div id="b8"class="bdiv" style='display:none;'>
+						<p>
+							亲，7天还没有血压曲线！
+						</p>
+					</div>
+					<div id="b9" class="bdiv" style='display:block;'>
+						<p>
+							亲，30天您还没有血压曲线！
+						</p>
+					</div>
+				</div>
+				<div id="rdiv4" class="rdiv"style="display:none">
+					<div id="tlabe4" class="tlabel">
+						<div id="d10">
+							<label>当天</label>
+							<span></span>
+						</div>
+						<div id="d11">
+							<label>7天</label>
+							<span></span>
+						</div>
+						<div id="d12"class="active4">
+							<label>30天</label>
+							<span></span>
+						</div>
+					</div>
+					<div id="b10" class="bdiv" style='display:none;'>
+						<p>
+							亲，当天您还没有血糖曲线！
+						</p>
+					</div>
+					<div id="b11"class="bdiv" style='display:none;'>
+						<p>
+							亲，7天您还没有血糖曲线！
+						</p>
+					</div>
+					<div id="b12"class="bdiv" style='display:block;'>
+						<p>
+							亲，30天您还没有血糖曲线！
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="body-right">
+			<div id='rtdiv'>
+				<img src="img/daren.png">
+				<input type="button" value="昨天">
+				<input class="active5"type="button" value="今天">
+				<input type="button" value="7天">
+				<input type="button" value="所有">
+				<div id="bodiv1">	
+				</div>
+				<div id="bodiv2">	
+				</div>
+				<div id="bodiv3">	
+				</div>
+				<div id="bodiv4">	
+				    <span>1</span>
+				    <i><img src="img/user.png"></i>
+				    <div>
+				    	<p>楞子<b>155.17公里</b></p>
+				    	<div class="bbar">
+				    		<div id="nbar1" class="nbar"></div>
+				    	</div>
+				    </div>
+				    <span>2</span>
+				    <i><img src="img/user.png"></i>
+				    <div>
+				    	<p>小星星<b>130.17公里</b></p>
+				    	<div class="bbar">
+				    		<div id="nbar2" class="nbar"></div>
+				    	</div>
+				    </div>
+				    <span>3</span>
+				    <i><img src="img/user.png"></i>
+				    <div>
+				    	<p>小魏<b>100.17公里</b></p>
+				    	<div class="bbar">
+				    		<div id='nbar3' class="nbar"></div>
+				    	</div>
+				    </div>
+				</div>
+
+			</div>
+			<div id="rmdiv">
+				<label>
+					本周成绩
+				</label>
+				<div class="ig">
+					<img src="img/twenty.png">
+					<div>
+					   <p>长辈关爱</p>
+	                   <div></div>
+	                   <p>4次/周</p>
+					</div>
+					<div>
+					   <p>晚辈关爱</p>
+	                   <div></div>
+	                   <p>3次/周</p>
+					</div>
+					<div>
+					   <p>夫妻浪漫</p>
+	                   <div></div>
+	                   <p>4次/周</p>
+					</div>
+					<div>
+					   <p>步行</p>
+	                   <div></div>
+	                   <p>12公里/周</p>
+					</div>
+					<div>
+					   <p>跑步</p>
+	                   <div></div>
+	                   <p>22公里/周</p>
+					</div>
+					<div>
+					   <p>骑行</p>
+	                   <div></div>
+	                   <p>100公里/周</p>
+					</div>
+					<div>
+					   <p>篮球</p>
+	                   <div></div>
+	                   <p>3次/周</p>
+					</div>
+					<div>
+					   <p>控烟</p>
+	                   <div></div>
+	                   <p>1盒/周</p>
+					</div>
+					<div>
+					   <p>限酒</p>
+	                   <div></div>
+	                   <p>4次/周</p>
+					</div>
+					<div>
+					   <p>电影</p>
+	                   <div></div>
+	                   <p>2次/周</p>
+					</div>
+				</div>
+		    </div>
+		    <div id='bdiv'>
+		        <div>
+		        	<h1>健康小贴士</h1>
+		        	<a href="javascript:;">跑男带火的指压板真的那么神奇吗？</a>
+		        	<p>很多人都被跑男中的指压板吸引。使用指压板会有一定的效果，但不能替代其他的养生方法和药物。有病还是要看医生，不能自己瞎琢磨。</p>
+		        </div>
+		        <div>
+		        	
+		        	<a href="javascript:;">育儿经|你会给孩子穿衣服吗？</a>
+		        	<p>孩子的病十有八九是捂出来的！判断孩子穿的是否合适别摸手，摸摸脖子，光溜就是合适，黏糊就是有汗穿多了。</p>
+		        </div>
+		        <div>
+		        	<a href="javascript:;">海南万宁调查组赴山东取证毒西瓜事件</a>
+		        	<p>近日，在青岛即墨、胶州等地，17名市民吃了海南万宁出产的“冰糖黑美人”西瓜后，纷纷出现头晕、恶心呕吐等症状。被查出有机磷中毒，有一名孕妇甚至因为毒素侵入到血液中，胎儿不保。</p>
+		        </div>
+				
+			</div>
+		</div>		
+	</div>
+
+
+	<footer>
+		<div>
+			<a href="javascript:;">关于我们</a>
+			<a href="javascript:;">联系我们</a>
+		</div>
+		<p>Copyright © 2015 爱健康管理平台</p>
+	</footer>
+</body>
+</html>
+
+
+/*style.css*/
+
+/* line 5, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+* {
+  font-family: "microsoft yahei";
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/style.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 10, ../sass/style.scss */
+.clearfix::before, .clearfix::after {
+  display: table;
+  content: "";
+}
+/* line 14, ../sass/style.scss */
+.clearfix::after {
+  clear: both;
+}
+
+/* line 21, ../sass/style.scss */
+body {
+  margin: 0px;
+  font-family: "microsoft yahei";
+  background-color: #f8faf3;
+}
+
+/* line 27, ../sass/style.scss */
+.head {
+  margin: 0;
+  background: #6f9f00;
+  width: 100%;
+  border-bottom: 3px solid #c1d29f;
+}
+/* line 32, ../sass/style.scss */
+.head img {
+  padding-left: 10%;
+  margin-right: 10px;
+}
+/* line 36, ../sass/style.scss */
+.head .active {
+  background-color: #507110;
+}
+/* line 40, ../sass/style.scss */
+.head a {
+  position: relative;
+  top: -25px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  color: #fff;
+  width: 5%;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+/* line 49, ../sass/style.scss */
+.head a:hover {
+  background-color: #638b15;
+}
+/* line 55, ../sass/style.scss */
+.head .head_right {
+  position: absolute;
+  top: 12px;
+  left: 70%;
+  z-index: 999;
+  bottom: 10px;
+  margin: 0px;
+  width: 10%;
+  height: 100px;
+}
+/* line 64, ../sass/style.scss */
+.head .head_right .head_right_l {
+  float: left;
+  width: 176px;
+  height: 44px;
+  margin: 0px;
+  background-color: #c1d29f;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+}
+/* line 71, ../sass/style.scss */
+.head .head_right .head_right_l img {
+  padding: 4px 2px;
+  margin: 0px;
+}
+/* line 75, ../sass/style.scss */
+.head .head_right .head_right_l p {
+  color: #6f9f00;
+  margin-right: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: -34px;
+  left: 44px;
+  width: 100px;
+}
+/* line 85, ../sass/style.scss */
+.head .head_right .head_right_l .down {
+  position: relative;
+  top: -50px;
+  left: 142px;
+}
+/* line 91, ../sass/style.scss */
+.head .head_right .message {
+  position: relative;
+  top: -32px;
+  left: 165px;
+}
+/* line 96, ../sass/style.scss */
+.head .head_right .down-list {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 20px;
+  background-color: #fff;
+  width: 140px;
+  padding-top: 22px;
+}
+/* line 104, ../sass/style.scss */
+.head .head_right .down-list ul {
+  list-style-type: none;
+  padding-left: 1px;
+  margin: 0px;
+}
+/* line 108, ../sass/style.scss */
+.head .head_right .down-list ul li {
+  width: 120px;
+  padding: 5px;
+}
+/* line 111, ../sass/style.scss */
+.head .head_right .down-list ul li a {
+  margin: 10px;
+  text-decoration: none;
+  color: #666666;
+  font-size: 10px;
+  padding: 5px 0px;
+}
+/* line 117, ../sass/style.scss */
+.head .head_right .down-list ul li a:hover {
+  background-color: #fff;
+  color: #6f9f00;
+}
+
+@-webkit-keyframes 'updown1' {
+  0% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+  100% {
+    top: 50px;
+  }
+}
+@-webkit-keyframes 'updown2' {
+  0% {
+    top: 80px;
+  }
+  50% {
+    top: 110px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@-webkit-keyframes 'updown3' {
+  0% {
+    top: 60px;
+  }
+  50% {
+    top: 85px;
+  }
+  100% {
+    top: 60px;
+  }
+}
+@-webkit-keyframes 'updown4' {
+  0% {
+    top: 80px;
+  }
+  50% {
+    top: 100px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+/* line 181, ../sass/style.scss */
+.container {
+  margin: 30px 170px auto;
+}
+/* line 183, ../sass/style.scss */
+.container .body-left {
+  float: left;
+  background-color: #fff;
+  padding: 20px 10px;
+  width: 650px;
+  border-left: 1px solid #edefe9;
+  border-top: 1px solid #edefe9;
+  border-bottom: 1px solid #edefe9;
+  border-right: 3px solid #edefe9;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+/* line 198, ../sass/style.scss */
+.container .body-left h2 {
+  font-size: 1.3em;
+}
+/* line 201, ../sass/style.scss */
+.container .body-left .circle4 {
+  padding: 120px;
+  margin-bottom: 50px;
+  position: relative;
+}
+/* line 205, ../sass/style.scss */
+.container .body-left .circle4 .circle-1 {
+  -webkit-animation: updown1 8s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 80px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 20px solid #f1a217;
+  background-color: #f3a722;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 220, ../sass/style.scss */
+.container .body-left .circle4 .circle-1 p {
+  margin: 0px;
+  color: #fff;
+  font-size: 1.2em;
+}
+/* line 224, ../sass/style.scss */
+.container .body-left .circle4 .circle-1 p strong {
+  font-size: 1.4em;
+}
+/* line 229, ../sass/style.scss */
+.container .body-left .circle4 .circle-12 {
+  -webkit-animation: updown1 8s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 55px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 180px;
+  height: 180px;
+  border: 30px solid #f1a217;
+  background-color: #fff;
+  border-radius: 90px;
+  text-align: center;
+  padding: 15px 15px;
+}
+/* line 244, ../sass/style.scss */
+.container .body-left .circle4 .circle-12 p {
+  margin: 0px;
+  color: #f3a722;
+  font-size: 1.3em;
+}
+/* line 248, ../sass/style.scss */
+.container .body-left .circle4 .circle-12 p strong {
+  font-size: 1.5em;
+}
+/* line 253, ../sass/style.scss */
+.container .body-left .circle4 .circle-2 {
+  -webkit-animation: updown2 10.5s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 280px;
+  margin: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+  border: 15px solid #7dbe0f;
+  background-color: #85c51e;
+  border-radius: 65px;
+  text-align: center;
+  padding: 8px 8px;
+}
+/* line 269, ../sass/style.scss */
+.container .body-left .circle4 .circle-2 p {
+  margin: 0px;
+  color: #fff;
+  font-size: 1.2em;
+}
+/* line 273, ../sass/style.scss */
+.container .body-left .circle4 .circle-2 p strong {
+  font-size: 1.4em;
+}
+/* line 278, ../sass/style.scss */
+.container .body-left .circle4 .circle-22 {
+  -webkit-animation: updown2 10.5s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 265px;
+  top: 135px;
+  margin: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 160px;
+  height: 160px;
+  border: 20px solid #7dbe0f;
+  background-color: #fff;
+  border-radius: 80px;
+  text-align: center;
+  padding: 15px 15px;
+}
+/* line 294, ../sass/style.scss */
+.container .body-left .circle4 .circle-22 p {
+  margin: 0px;
+  color: #85c51e;
+  font-size: 1.2em;
+}
+/* line 298, ../sass/style.scss */
+.container .body-left .circle4 .circle-22 p strong {
+  font-size: 1.4em;
+}
+/* line 303, ../sass/style.scss */
+.container .body-left .circle4 .circle-3 {
+  -webkit-animation: updown3 4s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 220px;
+  top: 110px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #f3f3f3;
+}
+/* line 317, ../sass/style.scss */
+.container .body-left .circle4 .circle-4 {
+  -webkit-animation: updown4 8s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 450px;
+  top: 135px;
+  margin: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 140px;
+  height: 140px;
+  border: 18px solid #2ba8d7;
+  background-color: #32addb;
+  border-radius: 70px;
+  text-align: center;
+  padding: 8px 8px;
+}
+/* line 333, ../sass/style.scss */
+.container .body-left .circle4 .circle-4 p {
+  margin: 0px;
+  color: #fff;
+  font-size: 1.2em;
+}
+/* line 337, ../sass/style.scss */
+.container .body-left .circle4 .circle-4 p strong {
+  font-size: 1.4em;
+}
+/* line 342, ../sass/style.scss */
+.container .body-left .circle4 .circle-42 {
+  -webkit-animation: updown4 8s;
+  -webkit-animation-iteration-count: infinite;
+  position: absolute;
+  left: 435px;
+  top: 120px;
+  margin: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 170px;
+  border: 20px solid #2ba8d7;
+  background-color: #fff;
+  border-radius: 85px;
+  text-align: center;
+  padding: 15px 15px;
+}
+/* line 358, ../sass/style.scss */
+.container .body-left .circle4 .circle-42 p {
+  margin: 0px;
+  color: #32addb;
+  font-size: 1.3em;
+}
+/* line 362, ../sass/style.scss */
+.container .body-left .circle4 .circle-42 p strong {
+  font-size: 1.5em;
+}
+/* line 368, ../sass/style.scss */
+.container .body-left .chose {
+  border: 2px solid #edefe9;
+  top: 800px;
+  width: 94%;
+  padding: 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  overflow: hidden;
+  clear: both;
+}
+/* line 378, ../sass/style.scss */
+.container .body-left .chose .btn1 {
+  border: 0px;
+  background-color: #fff;
+  top: 326px;
+  left: 10px;
+  text-align: center;
+  width: 290px;
+  -moz-border-radius: 10px 0px 0px 0px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px 0px 0px 0px;
+  float: left;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+}
+/* line 391, ../sass/style.scss */
+.container .body-left .chose .btn2 {
+  background-color: #fff;
+  -moz-border-radius: 0px 10px 0px 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 10px 0px 0px;
+  top: 325px;
+  border: 0px;
+  text-align: center;
+  width: 293px;
+  border-radius: 0px 10px 0px 0px;
+  float: right;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+}
+/* line 405, ../sass/style.scss */
+.container .body-left .chose .active2 {
+  background-color: #85c51e;
+  color: #fff;
+  font-size: 18px;
+  border: 0px;
+}
+/* line 411, ../sass/style.scss */
+.container .body-left .chose div {
+  border: 0px;
+  width: 570px;
+  overflow: hidden;
+  display: block;
+}
+/* line 418, ../sass/style.scss */
+.container .body-left .chose div span {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  float: left;
+  width: 150px;
+}
+/* line 423, ../sass/style.scss */
+.container .body-left .chose div span img {
+  float: left;
+}
+/* line 426, ../sass/style.scss */
+.container .body-left .chose div span span {
+  margin: 10px 0px 0px 0px;
+  width: 45px;
+}
+/* line 430, ../sass/style.scss */
+.container .body-left .chose div span span p {
+  font-size: 20px;
+  float: left;
+  color: #f1a217;
+  width: 15px;
+  margin: 0px;
+}
+/* line 444, ../sass/style.scss */
+.container .body-left #chose1 {
+  margin: 20px 10px;
+  border: 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 999;
+}
+/* line 450, ../sass/style.scss */
+.container .body-left #chose1 .lul {
+  float: left;
+  width: 60px;
+  position: relative;
+  z-index: 2;
+}
+/* line 455, ../sass/style.scss */
+.container .body-left #chose1 .lul input {
+  margin-bottom: 10px;
+  float: left;
+  border: 2px solid #f09f11;
+  font-family: microsoft yahei;
+  font-size: 15px;
+  padding: 5px 0px;
+  width: 61px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #f09f11;
+  color: #fff;
+}
+/* line 467, ../sass/style.scss */
+.container .body-left #chose1 .lul #in1 {
+  background-color: #fff;
+  color: #f09f11;
+  border: 2px solid #edefe9;
+  border-right-color: #fff;
+}
+/* line 475, ../sass/style.scss */
+.container .body-left #chose1 .rdiv {
+  position: relative;
+  left: -1px;
+  float: left;
+  display: table;
+  border: 2px solid #edefe9;
+  width: 535px;
+  width: 535px\9;
+  -moz-border-radius: 0px 10px 10px 10px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 10px 10px 10px;
+}
+/* line 484, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .tlabel {
+  margin: 10px 0px;
+  display: table;
+  padding: 10px 90px 0px 90px;
+}
+/* line 489, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .tlabel div {
+  border-radius: 3px;
+  float: left;
+  text-align: center;
+  margin-left: 30px;
+}
+/* line 494, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .tlabel div label {
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #f3f3f3;
+  color: #666;
+}
+/* line 501, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .tlabel div span {
+  display: none;
+}
+/* line 506, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .tlabel .active4 label {
+  border: 1px solid #85c51f;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #85c51f;
+  color: #fff;
+}
+/* line 514, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .tlabel .active4 span {
+  margin: 7px 15px 7px 20px;
+  box-sizing: border-box;
+  width: 12px;
+  height: 14px;
+  border-width: 7px 6px;
+  border-color: #85c51f transparent transparent transparent;
+  display: block;
+  border-style: solid;
+}
+@-webkit-keyframes 'updown5' {
+  0% {
+    position: relative;
+    top: 200px;
+    left: 20px;
+  }
+  50% {
+    position: relative;
+    top: 50px;
+    left: 20px;
+  }
+  100% {
+    position: relative;
+    top: 200px;
+    left: 20px;
+  }
+}
+/* line 546, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .bdiv {
+  height: 250px;
+}
+/* line 548, ../sass/style.scss */
+.container .body-left #chose1 .rdiv .bdiv p {
+  -webkit-animation: updown5 15s;
+  -webkit-animation-iteration-count: infinite;
+  float: left;
+  margin-left: 30px;
+  font-size: 30px;
+  color: #ffa300;
+  position: relative;
+  top: 200px;
+  left: 20px;
+}
+/* line 566, ../sass/style.scss */
+.container .body-right {
+  margin-left: 30px;
+  background-color: #f8faf3;
+  padding: 0px;
+  width: 300px;
+  float: left;
+}
+/* line 578, ../sass/style.scss */
+.container .body-right #rtdiv {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border-left: 1px solid #edefe9;
+  border-top: 1px solid #edefe9;
+  border-bottom: 1px solid #edefe9;
+  border-right: 3px solid #edefe9;
+  display: table;
+  padding: 15px 5px;
+  width: 100%;
+}
+/* line 588, ../sass/style.scss */
+.container .body-right #rtdiv img {
+  margin: 10px 60px;
+}
+/* line 591, ../sass/style.scss */
+.container .body-right #rtdiv input {
+  padding: 3px 3px;
+  margin-left: 10px;
+  float: left;
+  width: 50px;
+  background-color: #f3f3f3;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  color: #666666;
+  font-size: 16px;
+}
+/* line 603, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv1 {
+  display: none;
+}
+/* line 606, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv2 {
+  display: none;
+}
+/* line 610, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv3 {
+  display: none;
+}
+/* line 614, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 {
+  display: none;
+  float: left;
+  margin: 20px 0px 5px 10px;
+}
+/* line 618, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 32px;
+  float: left;
+  margin: 0 4% 0 7%;
+  text-align: center;
+  line-height: 26px;
+  font-size: 15px;
+  background: url(../img/medal.png) no-repeat -3px -1px;
+  color: #fb742a;
+}
+/* line 631, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 i {
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+/* line 636, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 i img {
+  margin: 0px 3px;
+  width: 30px;
+  height: 30px;
+}
+/* line 642, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div {
+  position: relative;
+  top: 0px;
+  left: 100px;
+}
+/* line 646, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div p {
+  font-size: 13px;
+  color: #666;
+  float: right;
+  position: relative;
+  top: -30px;
+}
+/* line 652, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div p b {
+  color: #9dd542;
+  margin-left: 25px;
+}
+/* line 657, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div .bbar {
+  width: 100%;
+  height: 9px;
+  border: 1px solid #c6e5f1;
+  background-color: #c6e5f1;
+  border-radius: 3px;
+  position: relative;
+  top: -22px;
+  left: 0px;
+  overflow: hidden;
+}
+/* line 667, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div .bbar .nbar {
+  width: 60%;
+  background-color: #2aa8d7;
+  border-radius: 3px;
+  height: 9px;
+  border: 1px solid #2aa8d7;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+/* line 677, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div .bbar #nbar2 {
+  width: 50%;
+}
+/* line 680, ../sass/style.scss */
+.container .body-right #rtdiv #bodiv4 div .bbar #nbar3 {
+  width: 40%;
+}
+/* line 688, ../sass/style.scss */
+.container .body-right #rtdiv .active5 {
+  padding: 3px 3px;
+  margin-right: 10px;
+  float: left;
+  width: 50px;
+  background-color: #7ebf12;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #7ebf12;
+  color: #ffffff;
+  font-size: 16px;
+}
+/* line 700, ../sass/style.scss */
+.container .body-right #rmdiv {
+  overflow: hidden;
+  margin: 10px 0px;
+  background-color: #fff;
+  padding: 20px 10px;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  border-left: 1px solid #edefe9;
+  border-top: 1px solid #edefe9;
+  border-bottom: 3px solid #edefe9;
+  border-right: 3px solid #edefe9;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+/* line 715, ../sass/style.scss */
+.container .body-right #rmdiv label {
+  color: #7ebf12;
+  text-align: center;
+}
+/* line 719, ../sass/style.scss */
+.container .body-right #rmdiv .ig {
+  overflow: hidden;
+  margin: 10px 0px;
+}
+/* line 722, ../sass/style.scss */
+.container .body-right #rmdiv .ig div {
+  margin: 10px 5px;
+  width: 98%;
+  float: left;
+}
+/* line 726, ../sass/style.scss */
+.container .body-right #rmdiv .ig div p {
+  float: left;
+  color: #666;
+  font-size: 13px;
+}
+/* line 731, ../sass/style.scss */
+.container .body-right #rmdiv .ig div p:first-child {
+  width: 55px;
+  text-align: right;
+}
+/* line 737, ../sass/style.scss */
+.container .body-right #rmdiv .ig div div {
+  margin: 3px 5px;
+  float: left;
+  border: 1px solid #f3f3f3;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  height: 11px;
+  width: 105px;
+  background-color: #f3f3f3;
+}
+/* line 752, ../sass/style.scss */
+.container .body-right #bdiv {
+  display: table;
+  width: 100%;
+  border: 1px solid transparent;
+  margin: 50px 10px;
+}
+/* line 757, ../sass/style.scss */
+.container .body-right #bdiv div {
+  width: 100%;
+}
+/* line 759, ../sass/style.scss */
+.container .body-right #bdiv div h1 {
+  color: #79a427;
+  font-size: 18px;
+  float: left;
+  margin: 5px 150px 10px 0px;
+}
+/* line 765, ../sass/style.scss */
+.container .body-right #bdiv div a {
+  text-decoration: none;
+  color: #85c51f;
+  float: left;
+  font-size: 14px;
+}
+/* line 771, ../sass/style.scss */
+.container .body-right #bdiv div p {
+  padding: 20px 0px;
+  float: left;
+  color: #666666;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* line 785, ../sass/style.scss */
+footer {
+  position: relative;
+  margin-top: 100px;
+  border-top: 5px solid #709e18;
+  background-color: #c9d9b3;
+  height: 100px;
+  text-align: center;
+}
+/* line 792, ../sass/style.scss */
+footer div {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 796, ../sass/style.scss */
+footer div a {
+  text-decoration: none;
+  margin: 10px 20px;
+  font-size: 18px;
+  color: #79a427;
+}
+/* line 803, ../sass/style.scss */
+footer p {
+  color: #666666;
+  font-size: 15px;
+}
+
+
+/*js1.js*/
+
+window.onload=function (){
+	var oDiv1=document.getElementById('chose');
+	var aBtn=oDiv1.getElementsByTagName('input');
+	var aDiv=oDiv1.getElementsByTagName('div')[0];
+
+	for(var i=0;i<aBtn.length;i++){
+		aBtn[i].index=i;
+		aBtn[i].onclick=function (){
+			if(this.index=='0'){
+				aBtn[1].className='btn2';
+				this.className='btn1 active2';
+				aDiv.innerHTML='<img src=img/svg1.png>';
+			}
+			if(this.index=='1'){
+				aBtn[0].className='btn1';
+				this.className='btn2 active2';
+				aDiv.innerHTML='<img src=img/svg2.png>';
+			}
+		}
+	}
+
+    
+	var oDiv4=document.getElementById('rtdiv');
+	var abt=oDiv4.getElementsByTagName('input');
+	var adivf=oDiv4.getElementsByTagName('div');
+	for(var i=0;i<abt.length;i++){
+		abt[i].index=i;
+		abt[i].onclick=function(){
+			for(var i=0;i<abt.length;i++){
+				abt[i].className='';
+				adivf[i].style.display='none';
+			}
+			this.className='active5';
+			adivf[this.index].style.display='block';
+			
+		}
+	}
+
+}
+
+
+function showor(){
+	var s=document.getElementById("down-list");
+	if(s.style.display=="block"){
+		s.style.display="none";
+	}else{
+		s.style.display="block";
+	}
+}
+
+function bigger(a){
+	
+	if (a=="c1") {
+		var x=document.getElementById('circle1');
+		x.className="circle-12";
+	};
+	if (a=="c2") {
+		var x=document.getElementById('circle2');
+		x.className="circle-22";
+	};
+	if (a=="c3") {
+		var x=document.getElementById('circle3');
+		x.className="circle-42";
+
+	};
+}
+function smaller(a){
+	if (a=="c1") {
+		var x=document.getElementById('circle1');
+		x.className="circle-1";
+	};
+	if (a=="c2") {
+		var x=document.getElementById('circle2');
+		x.className="circle-2";
+	};
+	if (a=="c3") {
+		var x=document.getElementById('circle3');
+		x.className="circle-4";
+
+	};
+
+}
+
